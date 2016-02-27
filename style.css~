@@ -8,7 +8,7 @@ paper-toolbar.main_toolbar{
 }
 
 paper-ripple{
-  color:#fffff3
+  color:#ffffff
 }
 a {
     text-decoration: none !important;
