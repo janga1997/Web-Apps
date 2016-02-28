@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+  background: url("http://files.customize.org/thumbnails/larger/28750.jpg") no-repeat center center fixed; 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#header {
+  font-family: Pacifico;
+  font-size: 10vh;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3vh;
+  text-shadow:4px 4px 4px white;
+}
+
+
+
+
+#session{
+ 
+  
+  height: 20vh;
+  background-color: grey;
+ 
+  box-shadow: 10px 10px 10px black;
+  border-radius: 10%;
+}
+.btn{
+  width:100%;
+  height:10vh;
+  font-size:5vh;
+}
+
+
+#settings {
+  
+  margin-top: 5vh;
+  width: 60%;
+  margin-left: 20%;
+}
+.button-text{
+  font-size:6vh;
+  text-align:center;
+  color:white;
+}
+
+.value-left,.value-right{
+  color:white;
+  text-align:center;
+  font-size:6vh;
+}
+#container{
+  margin-top:5vh;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  
+  width:25%;
+}
+#dummy{
+  padding:50%;
+  
+}
+#clock {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  
+  background-color: #B0C4DE;
+  border: solid 3px black;
+  border-radius:100%;
+  box-shadow:5px 5px 5px black;
+}
+
+#clock:hover{
+
+ opacity: 0.7;
+    filter: alpha(opacity=70);
+
+}
+p{
+  text-align:center;
+  font-size:6vh;
+  padding:3vh;
+}
+.time{
+  font-size:10vh;
+}
+
+.reset{
+  vertical-align:center;
+  padding:40px;
+  
+}
+.reset>button{
+  box-shadow:8px 8px 8px black;
+}
