@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+  
+   background: url("http://allpicts.in/download/1453/Vintage_Pattern_HD_Wallpaper_gold.jpg") no-repeat center center fixed; 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header{
+  height:20vh;
+  font-size:10vh;
+  text-align:center;
+  font-family:Pacifico;
+}
+.test{
+  font-size:8vh;
+  color:black;
+  width:18%;
+  height:45vh;
+  background-color:white;
+  text-align:center;
+  display:inline-block;
+  margin-right:2%;
+  margin-bottom:3vh;
+    
+  
+}
+.news{
+  margin-left:2%;
+  width:96%;
+}
+
+
+img{
+  width:100%;
+  height:70%;
+}
+img:hover{
+  opacity:0.5;
+}
+
+.img-text{
+  position:relative;
+  font-size:2.5vh;
+  height:30%;
+  background-color:orange;
+ border-radius:5%;
+}
+
+.headline{
+position:absolute;
+  margin-left:5%;
+  margin-top:5%;
+  
+}
+
+.upvotes{
+  position:absolute;
+  margin-top:15%;
+    margin-left:5%;
+}
+
+
+
