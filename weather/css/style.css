@@ -1,0 +1,87 @@
+@import url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Shadows+Into+Light);
+
+body{
+  
+ background:url("https://wallpaperscraft.com/image/field_horizon_clouds_layers_veil_cloudy_bad_weather_52178_1280x800.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header{
+text-align:center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:10vh;
+  color:white;
+  text-shadow:3px 3px 3px black;
+  
+}
+.well{
+  
+  height:18vh;
+  
+  margin-top:20vh;
+ 
+ background-color: rgba(255,255,255,0);
+  border:none;
+}
+
+
+.city{
+  
+  width:100%;
+  height:10vh;
+  box-shadow:3px 3px 3px black;
+
+}
+.city-text,.weather-text,.wind-text{
+  
+  text-align:center;
+  font-size:3vh;
+  color:brown;
+  font-weight:bold;
+}
+.city,.weather,.wind{
+ 
+  background-color:white;
+  border-radius:5px;
+  line-height:10vh;
+  opacity:0.7;
+  
+}
+.weather{
+  width:100%;
+  height:10vh;
+  box-shadow:3px 3px 3px black;
+}
+.wind{
+  width:100%;
+  height:10vh;
+  box-shadow:3px 3px 3px black;
+
+}
+
+.second{
+  width:30%;
+  margin:auto;
+}
+.temp{
+  font-size:5vh;
+  color:white;
+  font-weight:bold;
+}
+.btn{
+  width:100%;
+  height:7vh;
+  font-weight:bold;
+  font-size:3vh;
+}
+
+.btn:focus{
+background-color:pink;  
+}
+.icon{
+  width:10%;
+  margin-left:45%;
+}
