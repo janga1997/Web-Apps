@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Trade+Winds);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+.header>p {
+  color:white;
+  text-shadow:5px 5px 5px black;
+  font-weight: bold;
+  font-size: 7vh;
+  margin-left: 5%;
+  line-height: 15vh;
+  font-family: Trade Winds;
+}
+
+p,.well{
+  display:inline-block;
+}
+
+.header {
+  margin-bottom:1vh;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 15vh;
+  background-color: grey;
+  border-radius: 1vh;
+}
+
+.well{
+  background-color:transparent;
+  border-color:transparent;
+  vertical-align:middle;
+  width:30%;
+  margin-left:22%;
+}
+.well>*{
+  width:100%;
+  font-family:Audiowide;
+  font-size:2vh;
+}
+.online:hover{
+  background-color:green;
+  transition:background-color linear 1s;
+}
+
+.offline:hover{
+  background-color:#ff4c4c;
+  transition:background-color linear 1s;
+}
+
+.all:hover{
+  background-color:yellow;
+  transition:background-color linear 1s;
+}
+
+.test{
+   margin-bottom:1vh;
+  margin-left: 25%;
+ 
+  width: 50%;
+  height: 15vh;
+  background-color: grey;
+  border-radius: 1vh;
+}
+
+.test>img{
+  width:17%;
+  height:15vh;
+}
+.test>p{
+	
+  font-size:4vh;
+  color:black;
+  font-family:Bangers;
+  margin-left:5%;
+}
+.test:hover{
+  box-shadow:7px 7px 7px black;
+  transition: box-shadow linear 0.3s;
+}
+
+a{
+	color:white;
+	  text-decoration: none;
+}
+a:hover{
+	  text-decoration: none;
+	text-shadow:2px 2px 2px black;
+}
+.off{
+	background-color:red;
+
+}
+.on{
+	background-color:blue;
+}
