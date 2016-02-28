@@ -1,0 +1,165 @@
+.top {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-color: black;
+  font-weight: bold;
+}
+.nav {
+  float: right;
+}
+li:hover {
+  background-color: grey;
+  color: black;
+}
+html,
+body {
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.second-page {
+  width: 100%;
+  height: 100vh;
+  background: url("https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.gap {
+  height: 30px;
+}
+.second-text {
+  position: absolute;
+  color: white;
+  font-size: 6vh;
+  text-shadow: 7px 5px 10px black;
+  width: 60%;
+  left: 20%;
+  top: 20vh;
+}
+#second-text-id {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 33vh;
+  width: 50%;
+  left: 25%;
+}
+.line {
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 45vh;
+  height: 1vh;
+  background-color: white;
+}
+.row {
+  position: absolute;
+  top: 60vh;
+  width: 80%;
+  left: 10%;
+}
+.btn {
+  width: 70%;
+  font-weight: bold;
+  background-color: #c8c8c8;
+  border-color: black;
+}
+.btn:hover {
+  width: 90%;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+.third-page {
+  width: 100%;
+  height: 100vh;
+  background: url("http://www.wallpapereast.com/static/images/black_hd_wallpaper_black_hd_wallpaper_Ps84VQ3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+#third-page-text {
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 10px grey;
+  width: 40%;
+  left: 10%;
+  position: absolute;
+  top: 30vh;
+}
+#third-page-header {
+  font-size: 8vh;
+  text-decoration: none;
+  color: white;
+}
+.third-page-img {
+  width: 24%;
+  border-radius: 100%;
+  right: 10%;
+  top: 35vh;
+  position: absolute;
+}
+.fourth-page {
+  width: 100%;
+  height: 100vh;
+  background: url("http://i.i.cbsi.com/cnwk.1d/i/tim/2012/06/08/ClamCase_ClamBook.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+#fourth-page-text {
+  font-size: 7vh;
+  position: absolute;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10vh;
+}
+.col-xs-3 ul {
+  position: absolute;
+  top: 10vh;
+}
+.col-xs-3 ul li {
+  list-style-type: none;
+  margin-bottom: 2vh;
+}
+ul li a i {
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 35%;
+}
+.fa-facebook {
+  background: #3b5998;
+}
+.fa-linkedin {
+  background: #007bb6;
+}
+.fa-twitter {
+  background: #00aced;
+}
+.fa-google-plus {
+  background: #dd4b39;
+}
+ul li a i {
+  transition: all 0.2s ease-in-out;
+}
+ul li a i:hover {
+  opacity: .7;
+}
